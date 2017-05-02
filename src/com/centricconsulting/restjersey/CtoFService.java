@@ -7,6 +7,10 @@ import javax.ws.rs.Produces;
 
 @Path("/ctofservice")
 public class CtoFService {
+	// See https://crunchify.com/how-to-build-restful-service-with-java-using-jax-rs-and-jersey/
+	//   for additional details
+	// REST Path: http://localhost:8080/SampleJavaWebService/centric/ctofservice
+	
 	@GET
 	@Produces("application/xml")
 	public String convertCtoF(){
